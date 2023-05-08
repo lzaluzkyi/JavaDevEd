@@ -1,5 +1,7 @@
 package dog;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,8 +24,6 @@ public class Main {
         } else {
             System.out.println(mark.name + " didnt have juice");
         }
-
-
 
     }
 

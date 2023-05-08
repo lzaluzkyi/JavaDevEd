@@ -16,4 +16,8 @@ public class Dog {
         return this.name +": I leak face " + name;
     }
 
+    public void makeKaka(){
+        System.out.println("Пес посрав");
+    }
+
 }

@@ -10,6 +10,6 @@ public class Car implements Movable{
 
     @Override
     public void move() {
-        System.out.println("car drive with speed hahaha: " + speed);
+        System.out.println("car drive with speed hahahaha: " + speed);
     }
 }

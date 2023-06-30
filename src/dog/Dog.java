@@ -20,4 +20,11 @@ public class Dog {
         System.out.println("Пес посрав");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

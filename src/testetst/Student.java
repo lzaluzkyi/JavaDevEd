@@ -2,7 +2,7 @@ package testetst;
 
 public class Student {
 
-   private Integer id;
+    private Integer id;
 
     public Student(Integer id) {
         this.id = id;

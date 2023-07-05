@@ -1,13 +1,22 @@
 package set;
 
+import com.sun.xml.internal.ws.developer.Serialization;
+
 public class Human implements Comparable<Human>{
 
     private String name;
 
+    @Deprecated
+    @Serialization
     private Integer age;
 
 
     public Human(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    private Human(String name) {
         this.name = name;
         this.age = age;
     }
@@ -57,5 +66,17 @@ public class Human implements Comparable<Human>{
     @Override
     public int compareTo(Human o) {
         return o.age - this.age;
+    }
+
+    private void test(){
+        System.out.println("we in private method");
+    }
+
+    protected void test2(){
+        System.out.println("we in private method");
+    }
+
+     void test3(){
+        System.out.println("we in private method");
     }
 }

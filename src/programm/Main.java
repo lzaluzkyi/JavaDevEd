@@ -1,7 +1,5 @@
 package programm;
 
-import sun.util.resources.LocaleData;
-
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.Scanner;
